@@ -9,7 +9,7 @@ const fs = require('fs');
 
 const redisClient = createClient(
     {
-        url: 'redis://default:wowyzowy@35.193.212.37:6379'
+        url: 'redis://default:clayso@35.226.17.173:6379'
     }
 );
 
@@ -61,7 +61,7 @@ const signup = async(req,res) =>{
 
 
 app.get('/',(req,res)=>{
-    res.send("HOLY CRAP ITS WORKING!")
+    res.send("connected")
 });
 
 
