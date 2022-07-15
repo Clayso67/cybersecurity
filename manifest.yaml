@@ -68,7 +68,7 @@ spec:
   tls:
   - hosts:
     - frederickson.cit270.com
-    secretName: fredericksonbaker-dev-tls
+    secretName: frederickson-dev-tls
   rules:
   - host: frederickson.cit270.com
     http:
