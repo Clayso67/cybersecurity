@@ -1,0 +1,1 @@
+scp ./server.* clayso@35.238.159.8:/tmp

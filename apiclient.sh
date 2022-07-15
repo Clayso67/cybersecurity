@@ -1,0 +1,1 @@
+curl -d "@data.json" -X POST -H "Content-Type:application/json" https://clayso-nodejs.cit270.com:443/login
